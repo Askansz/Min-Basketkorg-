@@ -5,39 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Min Basketkorg</title>
     <style>
+        /* Base Styles */
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #e9f5f2;
+            background: linear-gradient(to bottom, #e9f5f2, #cfe7e3);
             color: #333;
-            line-height: 1.6;
+            line-height: 1.8;
         }
+
+        /* Header Styles */
         header {
-            background-color: #3a7d44;
-            color: white;
-            padding: 1.5rem 0;
+            background: linear-gradient(135deg, #3a7d44, #286232);
+            color: #fff;
+            padding: 2rem 0;
             text-align: center;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
         }
+
         header h1 {
-            font-size: 2.5rem;
+            font-size: 2.8rem;
             margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
         }
+
+        /* Main Content Styles */
         main {
             padding: 2rem;
-            max-width: 800px;
+            max-width: 900px;
             margin: 0 auto;
-            text-align: left;
+            background: #fff;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
+
         main h2 {
             color: #3a7d44;
-            font-size: 2rem;
-            margin-bottom: 1rem;
+            font-size: 2.2rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid #3a7d44;
+            display: inline-block;
+            padding-bottom: 0.3rem;
         }
+
         main p {
             font-size: 1.2rem;
-            margin-bottom: 1rem;
+            margin-bottom: 1.5rem;
+            text-align: justify;
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+            background-color: #3a7d44;
+            color: #fff;
+            font-size: 1rem;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
@@ -51,5 +80,8 @@
         <p>Jag har spenderat många timmar vid min korg, både ensam och med vänner. Den är placerad på en stabil yta och har en justerbar höjd, vilket gör den idealisk för både barn och vuxna.</p>
         <p>Oavsett om jag tränar på att göra perfekta layups eller trepoängare, ger min basketkorg mig en chans att förbättra mina färdigheter och samtidigt ha kul. Det är verkligen en viktig del av mitt hem!</p>
     </main>
+    <footer>
+        &copy; 2024 Min Basketkorg. Alla rättigheter förbehållna.
+    </footer>
 </body>
 </html>
